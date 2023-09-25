@@ -1,0 +1,15 @@
+{
+    "name": "Yash",
+    "age": 20,
+    "cities": ["New Delhi", "Mumbai", "Bangalore"],
+    "friends": [
+      {
+        "name": "Rahul",
+        "age": 20
+      },
+      {
+        "name": "Rohit",
+        "age": 20
+      }
+    ]
+  }
