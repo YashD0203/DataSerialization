@@ -106,7 +106,10 @@ JSON ignores whitespace. You can add whitespace to make it more readable.
 
 
 ### Encoding and Escaping 
-When writing JSON in a programming language, you usually don't need to worry about manual escaping, as most programming languages handle it for you when converting data structures to JSON. However, if you're manually creating JSON, you should escape special characters within strings, such as double quotes ("), backslashes (\), and control characters
+When writing JSON in a programming language, you usually don't need to worry about manual escaping, as most programming languages handle it for you when converting data structures to JSON. However, if you're manually creating JSON, you should escape special characters within strings, such as double quotes ("), backslashes (\), and control characters.
+
+escaping is used to include special characters without causing syntax errors. For instance, escaping double quotes (") in a JSON string.
+
 
 ```json
 {
@@ -114,6 +117,9 @@ When writing JSON in a programming language, you usually don't need to worry abo
 }
 ```
 
+In the above example, \" is used to escape the double quotes within the JSON string. This indicates that the double quotes are part of the string's content
 
+
+<br>
 
 JSON is primarily used for data interchange and is not a full-fledged programming language. When working with JSON in code, you typically parse it into data structures provided by your programming language and then manipulate those structures. Similarly, you can convert data structures back into JSON when you need to send data. JSON libraries are available in most programming languages to help with this process.
