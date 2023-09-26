@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <name>John Doe</name>
+    <id>12345</id>
+    <courses>
+      <course>Mathematics</course>
+      <course>Physics</course>
+      <course>History</course>
+    </courses>
+  </student>
+  <student>
+    <name>Alice Smith</name>
+    <id>67890</id>
+    <courses>
+      <course>English</course>
+      <course>Chemistry</course>
+      <course>Art</course>
+    </courses>
+  </student>
+  <!-- Add more student records as needed -->
+</students>
