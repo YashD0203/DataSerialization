@@ -1,0 +1,24 @@
+# Define an anchor for a map (object)
+user_data: &user_anchor
+  name: John
+  age: 30
+
+# Define an anchor for a list (array)
+fruits: &fruits_anchor
+  - apple
+  - banana
+  - cherry
+
+
+# Reference the user_data anchor using an alias
+user_copy: *user_anchor
+
+# Reference the fruits anchor using an alias within a list
+grocery_list:
+  - milk
+  - bread
+  - *fruits_anchor
+  - eggs
+
+
+  

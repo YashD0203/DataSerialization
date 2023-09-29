@@ -1,0 +1,5 @@
+person:
+  name: Carol
+  address:
+    street: 123 Main St
+    city: Anytown
